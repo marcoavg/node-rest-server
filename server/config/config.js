@@ -23,4 +23,4 @@ process.env.SEED = process.env.SEED || 'este-es-el-seed-dev'
 // https://peaceful-plateau-89608.herokuapp.com/
 
 
-process.env.CLIENT_ID = process.env.CLIENT_ID || '200393296452-6kpq2h0hb66j177qt482gda8ee6f66er.apps.googleusercontent.com'
+process.env.CLIENT_ID = '200393296452-6kpq2h0hb66j177qt482gda8ee6f66er.apps.googleusercontent.com'
