@@ -14,6 +14,12 @@ if (process.env.NODE_ENV === 'dev') {
 }
 process.env.URLDB = urlDB
 
+
+///vencimiento token
+process.env.CAD_TOKEN = 60 * 60 * 24 * 30
+    ///seed
+process.env.SEED = process.env.SEED || 'este-es-el-seed-dev'
+
 // mongodb://<dbuser>:<dbpassword>@ds135441.mlab.com:35441/cafe-marco-avg
 
 // https://peaceful-plateau-89608.herokuapp.com/
