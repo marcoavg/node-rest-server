@@ -16,7 +16,7 @@ process.env.URLDB = urlDB
 
 
 ///vencimiento token
-process.env.CAD_TOKEN = 60 * 60 * 24 * 30
+process.env.CAD_TOKEN = '48h'
     ///seed
 process.env.SEED = process.env.SEED || 'este-es-el-seed-dev'
 
